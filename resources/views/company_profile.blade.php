@@ -22,7 +22,7 @@
 
     <link
       rel="shortcut icon"
-      href="C:\\Users\\bayst\\coding\\leadHP\\copied_views\\icons8-drill-50.png"
+      href="C:\\Users\\bayst\\coding\\leadHP\\resources\\views\\icons8-drill-50.png
     />
     <!-- <meta name="mobile-web-app-capable" content="yes"> -->
     <link rel="icon" href="" />

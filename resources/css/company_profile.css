@@ -7,6 +7,7 @@ html {
 body {
   background-color: ivory;
   display: block;
+  color: #0f3668;
 }
 
 @media (max-width: 768px) {
@@ -17,7 +18,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #0f3668;
 }
 
 .header {
@@ -30,7 +31,7 @@ a {
 
 .left {
   background-color: green;
-  width: 200px;
+  width: 15%;
   height: 300px;
   display: block;
 
@@ -70,22 +71,18 @@ a {
   width: 120px;
 }
 
-.top-links {
+.list {
   display: flex;
   flex-direction: column;
   writing-mode: vertical-rl;
   justify-content: space-between;
-  background-color: blue;
 
   position: relative;
   left: 80%;
-
 }
 
-.top-links li {
-  border: 3px solid ivory;
-  border-radius: 15px;
-  background-color: ivory;
+.list li {
+  font-size: 14px;
   text-align: top;
   list-style: none;
   margin: 2px;

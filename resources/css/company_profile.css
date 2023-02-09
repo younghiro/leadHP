@@ -1,66 +1,85 @@
 body {
-    /* background-color: ivory; */
-    background-image: url("../images/background.jpg");
-    display: block;
+  background-color: ivory;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  body {
+    color: blue;
   }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .header {
-    background-color: yellow;
-    margin: 0;
-    width: 85%;
-    display: block;
-  }
-  
-  .left {
-    background-color: green;
-    width: 200px;
-    height: 300px;
-    display: block;
-  
-    position: relative;
-    left: 30px;
-  }
-  
-  .middle {
-    background-color: cornflowerblue;
-    padding: 10px 10px 10px;
-    width: 900px;
-    display: block;
-  
-    position: relative;
-    bottom: 300px;
-    left: 250px;
-  
-  }
-  
-  .about-company {
-    background-color: skyblue;
-  }
-  
-  .philosophy {
-    background-color: skyblue;
-  }
-  
-  .company-detail {
-    background-color: skyblue;
-  }
-  
-  .left-content h2 {
-    border: 3px solid black;
-    border-radius: 15px;
-    text-align: center;
-    width: 150px;
-  }
-  
-  .list {
-    display: flex;
-    flex-direction: column;
-    writing-mode: vertical-rl;
-    justify-content: space-between;
-    list-style: none;
-  
-  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  background-color: yellow;
+  margin: 0;
+  padding: 50px 0 0;
+  width: 95%;
+  display: block;
+}
+
+.left {
+  background-color: green;
+  width: 200px;
+  height: 300px;
+  display: block;
+
+  position: relative;
+  left: 30px;
+}
+
+.middle {
+  background-color: cornflowerblue;
+  padding: 10px 10px 10px;
+  width: 70%;
+  display: block;
+
+  position: relative;
+  bottom: 300px;
+  left: 250px;
+}
+
+.about-company {
+  background-color: skyblue;
+}
+
+.philosophy {
+  background-color: skyblue;
+}
+
+.company-detail {
+  background-color: skyblue;
+}
+
+.left-content h2 {
+  border: 3px solid black;
+  border-radius: 15px;
+  text-align: center;
+  width: 150px;
+}
+
+.top-links {
+  display: flex;
+  flex-direction: column;
+  writing-mode: vertical-rl;
+  justify-content: space-between;
+  background-color: blue;
+
+  position: relative;
+  left: 80%;
+
+}
+
+.top-links li {
+  border: 3px solid ivory;
+  border-radius: 15px;
+  background-color: ivory;
+  text-align: top;
+  list-style: none;
+  margin: 2px;
+  padding: 3px;
+}

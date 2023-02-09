@@ -10,6 +10,10 @@ body {
   color: #0f3668;
 }
 
+h2 {
+  font-size: 18px;
+}
+
 @media (max-width: 768px) {
   body {
     color: blue;
@@ -95,6 +99,7 @@ a {
 
 .detail-list {
   font-size: 14px;
+  color: black;
   line-height: 2;
 }
 
@@ -211,4 +216,26 @@ a {
 
 .content-navigator ul li a:hover::before, .content-navigator ul li a:hover::after {
   background-color: #fff;
+}
+
+.subtitle {
+  font-size: 8px;
+}
+
+.subtitle::before {
+  content: '';
+  width: 22px;
+  height: 0.5px;
+  background-color: #0f3668;
+  display: inline-block;
+  margin: 3px;
+}
+
+.subtitle::after {
+  content: '';
+  width: 22px;
+  height: 0.5px;
+  background-color: #0f3668;
+  display: inline-block;
+  margin: 3px;
 }

@@ -43,26 +43,27 @@
     <!-- elements in the middle -->
     <div class="middle">
         <div class="about-company">
-            <h2 id="about-company-title">会社概要</h2>
+            <h2 id="about-company-title">会社概要<span class="subtitle">COMPANY</span></h2>
             <p>
                 私たちは愛知県一宮市の会社です。<br>
                 <span class="CEO-name">名前</span>
             </p>
         </div>
         <div class="philosophy">
-            <h2 id="Philo-title">理念</h2>
+            <h2 id="philo-title">理念<span class="subtitle">PHILOSOPHY</span></h2>
             <table>
             </table>
         </div>
         <div class="company-detail">
-            <h2 id="copany-detail-title">会社詳細</h2>
+            <h2 id="copany-detail-title">会社詳細<span class="subtitle">DETAIL</span></h2>
             <dl class="detail-list">
                 <dt>会社名</dt>
                 <dd>株式会社リード</dd>
   
                 <dt>事業内容</dt>
                 <dd>
-                    ・電気温水器・エコキュート販売・修理取付<br>
+                    ・電気温水器<br>
+                    ・エコキュート販売・修理取付<br>
                     ・リフォーム全般<br>
                     ※個人所有物損害物の復旧工事・調査・鑑定
                     保険会社からの一報より迅速に初動対応し、被害者との打ち合せ

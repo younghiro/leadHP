@@ -67,12 +67,27 @@ a {
 }
 
 .left-content h3 {
-  border: 3px solid #0f3668;
-  border-radius: 15px;
-  background-color: #0f3668;
-  color: white;
+  color: #0f3668;
   text-align: center;
-  width: 120px;
+  font-size: 10px;
+}
+
+.left-content h3::before {
+  content: '';
+  width: 22px;
+  height: 0.5px;
+  background-color: #0f3668;
+  display: inline-block;
+  margin: 3px;
+}
+
+.left-content h3::after {
+  content: '';
+  width: 22px;
+  height: 0.5px;
+  background-color: #0f3668;
+  display: inline-block;
+  margin: 3px;
 }
 
 .list {
@@ -155,6 +170,8 @@ a {
   margin: 0 auto;
   padding: 0;
   width: 160px;
+
+  position: fixed;
 }
 
 .content-navigator ul {

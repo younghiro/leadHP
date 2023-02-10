@@ -25,6 +25,10 @@ a {
   color: #0f3668;
 }
 
+a:hover {
+  opacity: .7;
+}
+
 .header {
   background-color: yellow;
   margin: 0;
